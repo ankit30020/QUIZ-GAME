@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Game</h1>
+        <div class="game-info">
+            <p>SOME INFORMATION AND RULES ABOUT THE GAME ARE GIVEN BELOW:</p>
+            <ul>
+                <li>ALL questions are Multiple Choice.</li>
+                <li>There are 7 questions in total. [Score: 7 x 2 = 14]</li>
+                <li>Right answer: 2 points / Wrong answer : -1 from the points.</li>
+                <li>Passing mark 11 or above 11/ less than 11 Fail.</li>
+                <li>Each question carries 2 points.</li>
+                <li>Answering all the questions correctly to win the game.</li>
+            </ul>
+        </div>
+        <button id="start-button">Start Quiz</button>
+        <div id="question-container"></div>
+        <button id="next-button" style="display: none;">Next Question</button>
+        <div id="result-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
